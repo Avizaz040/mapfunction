@@ -36,7 +36,7 @@ function Card() {
   const thirdUlData = getUniqueData(Data, Math.ceil((2 * Data.length) / 3), Data.length);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-2xl text-black px-[10rem] py-[3rem] gap-6 mx-auto ">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-2xl text-black px-[2rem] md:px-[5rem] lg:px-[10rem] py-[3rem] gap-6 mx-auto ">
       <CardList data={firstUlData} />
       <CardList data={secondUlData} />
       <CardList data={thirdUlData} />
